@@ -1,0 +1,287 @@
+{
+  "issue": 64145,
+  "platform": "macOS arm64",
+  "bun": "1.4.4",
+  "source_base": "0fad04b3d5a8d5f40e6147573192a7e076787522",
+  "renderer": "Visible production CLI/TUI in tmux with a simulated provider",
+  "screenshots": "Native TUI frame colors rendered to PNG; before on the left, after on the right; cropped to the code",
+  "checks": {
+    "root_check": "passed",
+    "focused_tests": 111,
+    "tree_sitter": "Inherited C captures restored; C++ captures preserved",
+    "cli_exit_codes": [
+      0,
+      0
+    ]
+  },
+  "codeblocks": {
+    "before": {
+      "label": "before",
+      "checked_at": "2026-11-16T03:56:33.592Z",
+      "renderer": "visible production CLI/TUI in tmux; built-in simulated provider",
+      "control": {
+        "comment": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "int": [
+          224,
+          108,
+          117,
+          255
+        ],
+        "return": [
+          157,
+          124,
+          216,
+          255
+        ],
+        "number": [
+          245,
+          167,
+          66,
+          255
+        ],
+        "string": [
+          127,
+          216,
+          143,
+          255
+        ],
+        "field": [
+          224,
+          108,
+          117,
+          255
+        ]
+      },
+      "cpp": {
+        "comment": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "int": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "return": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "number": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "string": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "field": [
+          250,
+          178,
+          131,
+          255
+        ]
+      },
+      "cpp_specific": {
+        "namespace": [
+          229,
+          192,
+          123,
+          255
+        ],
+        "class": [
+          229,
+          192,
+          123,
+          255
+        ],
+        "public": [
+          157,
+          124,
+          216,
+          255
+        ],
+        "auto": [
+          224,
+          108,
+          117,
+          255
+        ]
+      }
+    },
+    "after": {
+      "label": "after",
+      "checked_at": "2026-11-16T03:59:07.696Z",
+      "renderer": "visible production CLI/TUI in tmux; built-in simulated provider",
+      "control": {
+        "comment": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "int": [
+          224,
+          108,
+          117,
+          255
+        ],
+        "return": [
+          157,
+          124,
+          216,
+          255
+        ],
+        "number": [
+          245,
+          167,
+          66,
+          255
+        ],
+        "string": [
+          127,
+          216,
+          143,
+          255
+        ],
+        "field": [
+          224,
+          108,
+          117,
+          255
+        ]
+      },
+      "cpp": {
+        "comment": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "int": [
+          224,
+          108,
+          117,
+          255
+        ],
+        "return": [
+          157,
+          124,
+          216,
+          255
+        ],
+        "number": [
+          245,
+          167,
+          66,
+          255
+        ],
+        "string": [
+          127,
+          216,
+          143,
+          255
+        ],
+        "field": [
+          250,
+          178,
+          131,
+          255
+        ]
+      },
+      "cpp_specific": {
+        "namespace": [
+          229,
+          192,
+          123,
+          255
+        ],
+        "class": [
+          229,
+          192,
+          123,
+          255
+        ],
+        "public": [
+          157,
+          124,
+          216,
+          255
+        ],
+        "auto": [
+          224,
+          108,
+          117,
+          255
+        ]
+      }
+    }
+  },
+  "diff_colors": {
+    "before": {
+      "int": [
+        238,
+        238,
+        238,
+        255
+      ],
+      "return": [
+        238,
+        238,
+        238,
+        255
+      ],
+      "number": [
+        238,
+        238,
+        238,
+        255
+      ],
+      "string": [
+        238,
+        238,
+        238,
+        255
+      ]
+    },
+    "after": {
+      "int": [
+        224,
+        108,
+        117,
+        255
+      ],
+      "return": [
+        157,
+        124,
+        216,
+        255
+      ],
+      "number": [
+        245,
+        167,
+        66,
+        255
+      ],
+      "string": [
+        127,
+        216,
+        143,
+        255
+      ]
+    }
+  }
+}
